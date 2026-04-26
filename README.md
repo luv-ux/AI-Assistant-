@@ -1,4 +1,4 @@
-# AI-Assistant-sturcture 
+study_Assistant
 
 
 
