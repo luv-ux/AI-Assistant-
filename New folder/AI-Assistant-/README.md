@@ -1,1 +1,1 @@
-# AI-Assistant-
+study-assistant
