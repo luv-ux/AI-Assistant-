@@ -21,5 +21,10 @@ class users(db.model):
         lazy=True
     ) 
 
-    def __repr__(self):
-        return f"<User {self.email}>"
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "email": self.email,
+            "subjects": self.subjects.split(",") if self.subjects else []
+        }
